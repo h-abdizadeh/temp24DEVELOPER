@@ -30,7 +30,7 @@ public class FinalGame_Menu : MonoBehaviour
     {
 
         yield return new WaitForSecondsRealtime(0.15f);
-        SceneManager.LoadScene("Practice10_Tileset");
+        SceneManager.LoadScene("FinalGame_demo");
 
     }
     IEnumerator ExitDelay()

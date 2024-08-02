@@ -138,7 +138,6 @@ public class FinalGame_Woodcutter : MonoBehaviour
             animator.SetBool("attack", true);
             toDoBtn.SetActive(false);
             touchDo = false;
-
             StartCoroutine(nameof(Delay));
             
 
